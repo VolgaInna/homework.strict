@@ -1,0 +1,369 @@
+.container {
+	padding-left: 7%;
+	padding-right: 7%;
+
+}
+
+header {
+	height: 100px;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.header-menu {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	width: 45%;
+}
+.header-nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 14pt;
+}
+
+.header-menu label {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/kisspng-hamburger-button.png);
+    background-size: contain;
+    display: none;
+}
+
+
+
+.page01 {
+	background-image: url(../img/back.png);
+	width: 100%;
+	height: calc(100vh - 100px);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+.page01 h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 90pt;
+	font-family: "Lato";
+	font-weight: 700;
+}
+.page01 h3, span {
+	color: #ffffff;
+	font-family: "Lato";
+	font-size: 16pt;
+	font-weight: 400;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+hr {
+	width: 50%;
+	border: none;
+	background-color: #15a4fa;
+	height: 2px;
+}
+.button {
+	height: 59px;
+	width: 182px;
+	background-color: #15a4fa;
+	border-radius: 5%;
+	text-align: center;
+	line-height: 59px;
+	
+}
+.page02 {
+	height: 100vh;
+	width: 100%;
+}
+.page02_1 {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f6f9f9;
+	
+}
+.page02_1 h2, p {
+	font-family: "Lato";
+	font-weight: 400;
+}
+.page02_1 h2 {
+	font-size: 30pt;
+	display: inline-block;
+	margin-top: 10vh;
+	text-align: center;
+	
+}
+.page02_1 p{
+	font-size: 16pt;
+	color: #999999;
+	text-align: center;
+}
+.page02_2 {
+	height: 50vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	font-family: "Lato";
+	font-weight: 400;
+
+}
+
+.page02_2 h3 {
+	font-size: 16pt;
+}
+
+.page02_2 p {
+	font-size: 12pt;
+	color: #999999;
+}
+.icon1 {
+	height: 60%;
+	width: 28%;
+	padding: 2%;
+	box-sizing: border-box;
+	text-align: center;
+}
+.icon1 img {
+	height: 99px;
+	width: 99px;
+	display: block;
+	margin: 0 auto;
+}
+
+.page03 {
+	background: #f6f9f9;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.page03 h2 {
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 30pt;
+	display: inline-block;
+	margin-bottom: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.page03 p {
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 12pt;
+	color: #999999;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+.page03-img {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.p03-img  {
+	width: 360px;
+	margin: 1%;
+	box-sizing: border-box;
+	position: relative;
+}
+.p03-img img {
+	width: 100%;
+}
+
+.p03-img-hover
+{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background: #2cacf8;
+	position: absolute;
+	opacity: 0.9;
+	display: none;
+}
+.p03-img:hover .p03-img-hover{
+	display: block;
+}
+
+.p03-img-hover-zoom-hober {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	
+}
+
+.p03-img-hover img {
+	height: 41px;
+	width: 41px;
+
+}
+
+.page04 {
+	height: calc(100vh - 91px);
+	background-image: url(../img/BG.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.page04 h2 {
+	display: inline-block;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 30pt;
+	color: #ffffff;
+}
+
+.page04 h5 {
+	display: inline-block;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 12pt;
+	color: #999999;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.text-input {
+	width: 553px;
+	height: 58px;
+	border: 1px solid grey;
+	background: none;
+	margin: 7px;
+	padding-left: 2%;
+	box-sizing: border-box;
+}
+.text-input:focus {
+	border: 1px solid white;
+	color: white;
+}
+.checkbox_button {
+	width: 553px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.checkbox {
+	line-height: 46px;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 12pt;
+	color: #ffffff; 
+}
+
+.button-2 {
+	height: 46px;
+	width: 140px;
+	background-color: #15a4fa;
+	border-radius: 5%;
+	text-align: center;
+	line-height: 46px;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 12pt;
+	color: #ffffff;
+}
+.text-input_1 {
+	width: 553px;
+	height: 160px;
+}
+footer {
+	height: 91px;
+	margin-bottom: 0;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 10pt;
+	color: #999999;
+}
+.icons img {
+	height: 38px;
+	width: 40px;
+}
+
+@media (max-width: 1500px) {
+    .page01 , .page02_1, .page02, .page02_2, .page03 , .page04 {
+    	height: auto;
+    }
+    
+   } 
+@media (max-width: 730px) {
+    	.page02_2 .icon1 {
+    		width: 100%;
+    	}
+
+    	.text-input, .checkbox_button, .text-input_1 {
+    		width: 300px;
+    	}
+
+    	.checkbox_button label {
+    		font-size: 8pt;
+    	}
+
+    	 .page01 h1 {
+    		font-size: 60pt;
+    	}
+
+    }
+
+@media (max-width: 872px) {
+	.page03-img {
+		justify-content: center;
+	}
+}
+@media (max-width: 480px) {
+	.p03-img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 900px) {
+    .header-menu label {
+        display: block;
+    }
+    .header-nav {
+        display: none;
+        width: 100vw;
+        max-width: 100%;
+        height: auto;
+        position: absolute;
+        z-index: 100;
+        background-color: #f6f9f9;
+        color: #000000;
+        left: 0;
+        padding-left: 3%;
+        top: 100px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #menu-checkbox:checked ~ .header-nav {
+        display: block;
+    }
+}
